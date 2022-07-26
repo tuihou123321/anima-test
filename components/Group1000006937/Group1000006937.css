@@ -1,0 +1,37 @@
+.group-100000693 {
+  align-items: flex-start;
+  display: flex;
+  height: 20px;
+  margin-top: 4px;
+  min-width: 249px;
+}
+
+.text-2-1 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 18px;
+  min-height: 18px;
+  min-width: 48px;
+  white-space: nowrap;
+}
+
+.text-2-2 {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 80px;
+  min-height: 18px;
+  min-width: 30px;
+  white-space: nowrap;
+}
+
+.percent-4 {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 66px;
+  min-height: 18px;
+  min-width: 19px;
+  text-align: right;
+  white-space: nowrap;
+}
+

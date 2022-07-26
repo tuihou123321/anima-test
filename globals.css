@@ -1,0 +1,43 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One:400");
+@font-face {
+  font-family: "PingFang SC-Semibold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/PingFangSC-Semibold") format("opentype");
+}
+@font-face {
+  font-family: "PingFang SC-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/PingFangSC-Regular") format("truetype");
+}
+@font-face {
+  font-family: "PingFang SC-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://fonts.animaapp.com/PingFangSC-Medium") format("opentype");
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}

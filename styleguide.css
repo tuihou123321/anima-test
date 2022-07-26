@@ -1,0 +1,62 @@
+:root { 
+  --black: #000000;
+  --concrete: #f2f3f5;
+  --mirage: #1d2129;
+  --regent-gray: #868d9c;
+  --scarpa-flow: #4e5769;
+  --white: #ffffff;
+ 
+  --font-size-l: 14px;
+  --font-size-m: 12px;
+  --font-size-xl: 16px;
+  --font-size-xxl: 18px;
+  --font-size-xxxl: 20px;
+ 
+  --font-family-fjalla_one: "Fjalla One", Helvetica;
+  --font-family-pingfang_sc-medium: "PingFang SC-Medium", Helvetica;
+  --font-family-pingfang_sc-regular: "PingFang SC-Regular", Helvetica;
+  --font-family-pingfang_sc-semibold: "PingFang SC-Semibold", Helvetica;
+}
+.pingfangsc-regular-normal-scarpa-flow-12px {
+  color: var(--scarpa-flow);
+  font-family: var(--font-family-pingfang_sc-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pingfangsc-regular-normal-mirage-12px {
+  color: var(--mirage);
+  font-family: var(--font-family-pingfang_sc-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pingfangsc-regular-normal-regent-gray-14px {
+  color: var(--regent-gray);
+  font-family: var(--font-family-pingfang_sc-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pingfangsc-normal-scarpa-flow-14px {
+  color: var(--scarpa-flow);
+  font-family: var(--font-family-pingfang_sc-semibold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pingfangsc-regular-normal-scarpa-flow-14px {
+  color: var(--scarpa-flow);
+  font-family: var(--font-family-pingfang_sc-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.border-1px-concrete {
+  border: 1px solid var(--concrete);
+}
